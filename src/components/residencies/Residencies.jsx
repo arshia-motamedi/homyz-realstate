@@ -1,7 +1,9 @@
 import React from 'react'
 import "./Residencies.css"
 import { Swiper,SwiperSlide,useSwiper } from 'swiper/react'
-import "Swiper/css"
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import data from '../../utils/slider.json'
 import { sliderSettings } from '../../utils/Common'
 function Residencies() {
